@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+  }
+  
+  h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: #111;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 10px;
+    transition: box-shadow 0.5s ease;
+  }
+  
+  h1:hover {
+    box-shadow: 0 0 10px red;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  #filePicker {
+    margin-top: 10px;
+  }
+  
+  #submitButton,
+  #downloadButton {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
